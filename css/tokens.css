@@ -1,0 +1,56 @@
+/* Porche Makeup Artistry: design tokens (taken from the price poster) */
+:root {
+  /* Surfaces */
+  --bg: #FBF7F3;            /* ivory */
+  --bg-blush: #F5E7E1;      /* blush wash */
+  --bg-champagne: #EFE2D3;  /* champagne */
+  --card: #FFFFFF;
+  --ink: #141114;           /* poster black bands */
+  --ink-soft: #2A2326;
+
+  /* Text */
+  --text: #1C1719;
+  --text-muted: #6E625E;
+  --text-on-dark: #F6EEE6;
+
+  /* Gold & rose */
+  --gold: #B8925A;
+  --gold-deep: #8E6A35;     /* gold text on light backgrounds (contrast-safe) */
+  --gold-light: #E7CFA0;
+  --rose: #C98F86;
+  --rose-light: #EBC9C1;
+
+  --line: #EADBD2;
+  --line-strong: #D9C2B4;
+
+  --whatsapp: #25D366;
+  --whatsapp-dark: #1DA851;
+
+  --grad-gold: linear-gradient(135deg, #E7CFA0 0%, #B8925A 45%, #EAD8B0 70%, #8E6A35 100%);
+  --grad-hero: radial-gradient(120% 80% at 80% 10%, #F3DCD4 0%, #F8EEE8 45%, #FBF7F3 100%);
+
+  /* Type */
+  --font-display: "Cinzel", "Trajan Pro", Georgia, serif;
+  --font-script: "Great Vibes", "Brush Script MT", cursive;
+  --font-sans: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Shape & depth */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 999px;
+  --shadow-sm: 0 2px 10px rgba(60, 35, 30, 0.06);
+  --shadow-md: 0 12px 32px rgba(60, 35, 30, 0.10);
+  --shadow-lg: 0 24px 60px rgba(60, 35, 30, 0.16);
+
+  /* Spacing */
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px; --s7: 48px; --s8: 72px;
+
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --z-header: 100;
+  --z-float: 200;
+  --z-bar: 300;
+  --z-modal: 400;
+  --z-intro: 999;
+}

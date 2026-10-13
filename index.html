@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>PORCHE Makeup Artistry | Enhancing Your Natural Beauty | QwaQwa</title>
+
+  <meta name="description" content="PORCHE Makeup Artistry by PN Xaba. Enhancing your natural beauty in Phuthaditjhaba, QwaQwa, Free State & Gauteng. Soft Glam, Full Glam, Bridal Makeup & Male Grooming. Bookings: 083 973 8295.">
+  <meta name="keywords" content="Porche Makeup Artistry, Makeup Artist QwaQwa, Makeup Artist Phuthaditjhaba, Bridal Makeup QwaQwa, Soft Glam, Full Glam, Male Grooming, Free State MUA">
+  <meta name="theme-color" content="#FBF7F3">
+
+  <!-- Open Graph for WhatsApp & Social Sharing -->
+  <meta property="og:type" content="business.business">
+  <meta property="og:title" content="PORCHE Makeup Artistry | Enhancing Your Natural Beauty">
+  <meta property="og:description" content="Soft Glam, Full Glam, Bridal Makeup & Male Grooming in Phuthaditjhaba, QwaQwa. Let me beat your face! Bookings: 083 973 8295.">
+  <meta property="og:image" content="./assets/img/hero-soft-glam.jpg">
+  <meta property="og:url" content="https://porcheglam.co.za">
+
+  <!-- PWA Manifest & Favicon -->
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="./assets/svg/porche-logo.svg">
+  <link rel="apple-touch-icon" href="./assets/svg/porche-logo.svg">
+
+  <!-- Google Fonts: Cinzel, Great Vibes & Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/sections.css">
+
+  <!-- Local SEO Structured Data (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "PORCHE Makeup Artistry",
+    "image": "./assets/img/hero-soft-glam.jpg",
+    "telephone": "+27839738295",
+    "priceRange": "R200 - R500",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Phuthaditjhaba",
+      "addressRegion": "Free State",
+      "addressCountry": "ZA"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -28.5286,
+      "longitude": 28.8256
+    },
+    "areaServed": [
+      "Phuthaditjhaba",
+      "QwaQwa",
+      "Harrismith",
+      "Kestell",
+      "Bethlehem",
+      "Gauteng"
+    ],
+    "description": "Professional makeup artist in Phuthaditjhaba, QwaQwa. Enhancing your natural beauty. Specializing in Bridal, Soft Glam, Full Glam, and Male Grooming."
+  }
+  </script>
+</head>
+<body>
+
+  <!-- 1. INTRO SPLASH OVERLAY -->
+  <div id="intro" class="intro" aria-hidden="true">
+    <img src="./assets/svg/porche-logo.svg" alt="Porche Logo" class="intro__logo" />
+    <h1 class="intro__name">PORCHE</h1>
+    <div class="intro__script">Makeup Artistry</div>
+  </div>
+
+  <!-- 2. LIPSTICK SCROLL METER -->
+  <div id="lipstick-meter" class="lipstick-meter" aria-hidden="true">
+    <div class="lipstick-bullet-wrap">
+      <div id="lipstick-bullet" class="lipstick-bullet"></div>
+    </div>
+    <div class="lipstick-case"></div>
+  </div>
+
+  <!-- 3. SITE HEADER -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="brand">
+        <img src="./assets/svg/porche-logo.svg" alt="Porche Logo" class="brand__logo" />
+        <div>
+          <div class="brand__name">PORCHE</div>
+          <div class="brand__script">Makeup Artistry</div>
+        </div>
+      </a>
+
+      <nav class="header__nav" aria-label="Main Navigation">
+        <a href="#services">Services</a>
+        <a href="#bridal">Bridal</a>
+        <a href="#house-calls">House Calls</a>
+        <a href="#quote-section">Book Now</a>
+        <a href="#deposit">Banking</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="tel:+27839738295" class="header__call" data-call>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <span data-phone>083 973 8295</span>
+        </a>
+
+        <a href="#" class="btn btn-wa btn-sm" data-wa="Hi Porche! I'd like to enquire about a makeup booking.">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.97.53 1.871.82 2.796.82 3.183 0 5.768-2.587 5.769-5.766.001-3.182-2.585-5.806-5.769-5.806zm0 10.455c-.868 0-1.71-.24-2.433-.695l-.174-.108-1.58.415.422-1.54-.114-.182a4.673 4.673 0 0 1-.72-2.579c.001-2.582 2.102-4.683 4.687-4.683 2.583 0 4.685 2.101 4.686 4.683-.001 2.582-2.103 4.689-4.768 4.689z"/>
+          </svg>
+          WhatsApp
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 4. HERO SECTION WITH ARMORED ARCH & 3D FLOATING COMPACT -->
+  <section class="hero">
+    <div class="container hero__grid">
+      
+      <div class="hero__copy">
+        <img src="./assets/svg/porche-logo.svg" alt="" class="hero__logo" />
+        <h1 class="hero__name">PORCHE</h1>
+        <div class="hero__script">Makeup Artistry</div>
+
+        <div class="hero__tagline">
+          <small>Enhancing Your</small>
+          <strong>Natural Beauty</strong>
+        </div>
+
+        <p class="hero__desc">
+          Professional, camera-proof beauty by PN Xaba. Based in Phuthaditjhaba, QwaQwa, traveling across Free State and Gauteng for weddings, events, graduations, and private sessions.
+        </p>
+
+        <div class="hero__ctas">
+          <a href="#" class="btn btn-dark" data-wa="Hi Porche! I'd like to book an appointment. Let me beat your face! ✨">
+            Book on WhatsApp
+          </a>
+          <a href="#services" class="btn btn-ghost">
+            View Price List
+          </a>
+        </div>
+
+        <div class="hero__facts">
+          <span>Look Good. Feel Confident.</span>
+          <span>From 11 September 2026 Rates</span>
+          <span>Photo Ready & Camera Proof</span>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <div class="hero__arch">
+          <img src="./assets/img/hero-soft-glam.jpg" alt="Porche Makeup Artistry Signature Glam" />
+        </div>
+        
+        <!-- Interactive 3D Gold Compact Bubble -->
+        <div id="hero3d-container" class="hero__3d" title="Drag to spin the 3D compact"></div>
+
+        <div class="hero__quote">
+          Look Good.<br>Feel Confident. ♡
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 5. SERVICES & PRICE MENU (POSTER MATCH) -->
+  <section id="services" class="section section--blush">
+    <div class="container">
+      
+      <div class="section-head reveal">
+        <span class="tab-label">
+          <span class="tab-label__icon">💄</span>
+          Services
+        </span>
+        <h2>
+          Rate Card
+          <span class="script">From 11 September 2026</span>
+        </h2>
+        <p>Tap any service to view full package details and book your slot directly on WhatsApp.</p>
+      </div>
+
+      <div class="services__grid">
+        
+        <!-- Main Service Dotted List -->
+        <div class="menu-card reveal">
+          <div class="menu-card__eyebrow">Price Menu</div>
+          <div id="price-list">
+            <!-- Dynamically populated by palette.js -->
+          </div>
+
+          <div style="margin-top: 24px; padding-top: 18px; border-top: 1px solid var(--line);">
+            <div class="menu-card__eyebrow">Add-Ons</div>
+            <div id="addon-list">
+              <!-- Lashes & Brows -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Flatlay Image & Quick Booking Card -->
+        <div class="services__side reveal">
+          <div class="services__flatlay">
+            <img src="./assets/img/products-flatlay.jpg" alt="Luxury Makeup Cosmetics" />
+          </div>
+
+          <div class="menu-card" style="text-align: center;">
+            <div style="font-family: var(--font-display); font-size: 1.1rem; color: var(--ink); margin-bottom: 6px;">
+              Let me <span class="gold-text" style="font-weight: 700;">BEAT</span> your face! ♡
+            </div>
+            <p style="font-size: 0.86rem; margin-bottom: 16px;">
+              Clean brushes, premium pigments, and personalized shade matching for all skin tones.
+            </p>
+            <a href="#quote-section" class="btn btn-dark btn-sm btn-block">
+              Calculate Total & Book
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Service Detail Drawer Modal -->
+  <div id="service-drawer" class="drawer" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="drawer-title">
+    <div class="drawer__card">
+      <button id="drawer-close" class="drawer__close" aria-label="Close details">✕</button>
+      <div id="drawer-content">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. BRIDAL MAKEUP FEATURE SPOTLIGHT -->
+  <section id="bridal" class="section">
+    <div class="container">
+      
+      <div class="bridal reveal">
+        <div class="bridal__photo">
+          <img src="./assets/img/bride-tiara.jpg" alt="Bridal Makeup with Crystal Tiara by Porche" />
+        </div>
+
+        <div class="bridal__body">
+          <span class="tab-label" style="align-self: flex-start; margin-bottom: 10px;">
+            <span class="tab-label__icon">💍</span>
+            Bridal Makeup
+          </span>
+
+          <div class="bridal__price">
+            <strong>R500</strong>
+            <span>Photo ready & camera proof ♡</span>
+          </div>
+
+          <h2>Your Wedding Day <span class="script">Perfection</span></h2>
+
+          <p>
+            Long-wearing, sweat-resistant, waterproof bridal beauty crafted to keep you radiant from morning vows to the final reception dance. High-definition base with zero camera flashback.
+          </p>
+
+          <div class="bridal__ctas">
+            <a href="#" class="btn btn-wa btn-sm" data-wa="Hi Porche! I would love to enquire about Bridal Makeup (R500) for my wedding date: ">
+              Enquire Bridal Date
+            </a>
+            <a href="#quote-section" class="btn btn-ghost btn-sm" data-quote-service="bridal">
+              Calculate Bridal Total
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 7. HOUSE CALLS & TRAVEL COVERAGE (POSTER MATCH) -->
+  <section id="house-calls" class="section section--blush">
+    <div class="container">
+      
+      <div class="section-head reveal">
+        <span class="tab-label">
+          <span class="tab-label__icon">🚗</span>
+          House Calls
+        </span>
+        <h2>
+          Travel Coverage
+          <span class="script">We Come To You</span>
+        </h2>
+        <p>Enjoy the luxury salon experience in the comfort of your home, bridal suite, or venue.</p>
+      </div>
+
+      <div class="areas reveal">
+        
+        <!-- Local Towns -->
+        <div class="menu-card">
+          <div class="menu-card__eyebrow">House Call Rates</div>
+          <div id="area-list">
+            <!-- Dynamically populated with QwaQwa R300, Kestell R300, Harrismith R350, Bethlehem R400 -->
+          </div>
+
+          <div class="late-fee">
+            <span>⏰</span>
+            <span>Late Fee: <strong>R100 / 30min / hour</strong>. Please be ready on time.</span>
+          </div>
+        </div>
+
+        <!-- Gauteng Card -->
+        <div class="gauteng">
+          <div class="gauteng__script">Gauteng ♡</div>
+          <strong style="font-size: 1.1rem; color: var(--ink);">Gauteng We Are Here 💅✨</strong>
+          <p>
+            House calls fees range according to your location around Gauteng. Send your location for an exact quote.
+          </p>
+          <a id="gauteng-quote" href="#" class="btn btn-dark btn-sm" style="margin-top: 10px;">
+            Get Gauteng Quote on WhatsApp
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 8. INTERACTIVE VANITY MIRROR (BEFORE / AFTER TRANSFORMATION) -->
+  <section class="section">
+    <div class="container">
+      
+      <div class="section-head reveal">
+        <span class="tab-label">
+          <span class="tab-label__icon">✨</span>
+          Transformation
+        </span>
+        <h2>
+          Before & After
+          <span class="script">The Beat</span>
+        </h2>
+        <p>Slide the handle to see the transformation. The Hollywood vanity bulbs ignite as the look is revealed.</p>
+      </div>
+
+      <div class="mirror-frame reveal" id="mirror-frame">
+        <div class="mirror-bulbs" aria-hidden="true">
+          <!-- Dynamically populated by mirror.js -->
+        </div>
+
+        <div id="mirror-viewport" class="mirror-viewport" role="slider" aria-label="Before and after makeup comparison" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" tabindex="0">
+          <!-- After (bottom) -->
+          <img src="./assets/img/after.jpg" alt="After Porche Makeup Beat" class="mirror-img" />
+
+          <!-- Before (top clipped) -->
+          <div id="mirror-before" class="mirror-before-wrap">
+            <img src="./assets/img/before.jpg" alt="Before Makeup Natural Face" class="mirror-img" />
+            <div class="mirror-handle" aria-hidden="true">✦</div>
+          </div>
+
+          <div class="mirror-tag mirror-tag--before">Natural</div>
+          <div class="mirror-tag mirror-tag--after">Beaten ♡</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 9. LOOKBOOK GALLERY -->
+  <section class="section section--blush">
+    <div class="container">
+      
+      <div class="section-head reveal">
+        <span class="tab-label">
+          <span class="tab-label__icon">📸</span>
+          Lookbook
+        </span>
+        <h2>
+          Curated Looks
+          <span class="script">Flawless Faces</span>
+        </h2>
+        <p>Filter through our recent clients across QwaQwa and Free State.</p>
+      </div>
+
+      <div class="filters reveal" role="tablist" aria-label="Lookbook categories">
+        <button class="filter active" type="button" data-filter="all" aria-pressed="true">All Looks</button>
+        <button class="filter" type="button" data-filter="soft-glam" aria-pressed="false">Soft Glam (R400)</button>
+        <button class="filter" type="button" data-filter="full-glam" aria-pressed="false">Full Glam (R400)</button>
+        <button class="filter" type="button" data-filter="bridal" aria-pressed="false">Bridal (R500)</button>
+        <button class="filter" type="button" data-filter="natural" aria-pressed="false">Natural (R350)</button>
+        <button class="filter" type="button" data-filter="male" aria-pressed="false">Male Grooming (R200)</button>
+      </div>
+
+      <div class="gallery reveal">
+        <figure class="look" data-cat="soft-glam" data-open-service="soft-glam" tabindex="0">
+          <img src="./assets/img/soft-glam-card.jpg" alt="Soft Glam Look" loading="lazy" />
+          <figcaption><span>Soft Glam</span><span>R400</span></figcaption>
+        </figure>
+
+        <figure class="look" data-cat="bridal" data-open-service="bridal" tabindex="0">
+          <img src="./assets/img/bride-tiara.jpg" alt="Bridal Tiara Makeup" loading="lazy" />
+          <figcaption><span>Bridal Glam</span><span>R500</span></figcaption>
+        </figure>
+
+        <figure class="look" data-cat="full-glam" data-open-service="full-glam" tabindex="0">
+          <img src="./assets/img/party-glam.jpg" alt="Full Glam Evening Look" loading="lazy" />
+          <figcaption><span>Full Glam</span><span>R400</span></figcaption>
+        </figure>
+
+        <figure class="look" data-cat="male" data-open-service="male" tabindex="0">
+          <img src="./assets/img/male-grooming.jpg" alt="Male Grooming Makeup" loading="lazy" />
+          <figcaption><span>Male Grooming</span><span>R200</span></figcaption>
+        </figure>
+
+        <figure class="look" data-cat="natural" data-open-service="natural" tabindex="0">
+          <img src="./assets/img/natural-look.jpg" alt="Natural Dewy Look" loading="lazy" />
+          <figcaption><span>Natural Look</span><span>R350</span></figcaption>
+        </figure>
+
+        <figure class="look" data-cat="full-glam" data-open-service="full-glam" tabindex="0">
+          <img src="./assets/img/matric-glam.jpg" alt="Matric Farewell Look" loading="lazy" />
+          <figcaption><span>Matric Beat</span><span>R400</span></figcaption>
+        </figure>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 10. QUOTE BUILDER & BOOKING GENERATOR -->
+  <section id="quote-section" class="section">
+    <div class="container" style="max-width: 820px;">
+      
+      <div class="section-head reveal">
+        <span class="tab-label">
+          <span class="tab-label__icon">📋</span>
+          Booking & Quotes
+        </span>
+        <h2>
+          Instant Quote
+          <span class="script">Book in Seconds</span>
+        </h2>
+        <p>Pick your service, location, and date. We calculate your exact total and 50% deposit and generate your WhatsApp booking.</p>
+      </div>
+
+      <div class="planner reveal">
+        <form id="quote-form">
+          
+          <div class="field">
+            <label class="field__label" for="q-service">1. Select Makeup Service</label>
+            <select id="q-service" class="field__select">
+              <!-- Dynamically populated -->
+            </select>
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="q-location">2. Location / House Call</label>
+            <select id="q-location" class="field__select">
+              <!-- Dynamically populated with QwaQwa, Kestell, Harrismith, Bethlehem, Gauteng -->
+            </select>
+          </div>
+
+          <div class="field-grid">
+            <div class="field">
+              <label class="field__label" for="q-date">3. Event Date</label>
+              <input type="date" id="q-date" class="field__input" />
+            </div>
+
+            <div class="field">
+              <label class="field__label" for="q-time">Preferred Time</label>
+              <input type="time" id="q-time" class="field__input" value="09:00" />
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="field__label">4. Number of Faces</label>
+            <div class="stepper">
+              <span style="font-size: 0.9rem; font-weight: 500;">Number of clients / bridal squad</span>
+              <div style="display: flex; align-items: center; gap: 8px;">
+                <button type="button" id="q-minus" class="stepper__btn" aria-label="Decrease faces">−</button>
+                <span id="q-faces" class="stepper__val">1</span>
+                <button type="button" id="q-plus" class="stepper__btn" aria-label="Increase faces">+</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="field__label">5. Add-Ons</label>
+            <div id="q-addons" class="chip-group">
+              <!-- Dynamically populated with Lashes +R50, Eyebrows +R30 -->
+            </div>
+          </div>
+
+          <!-- Calculated Quote Breakdown -->
+          <div class="quote">
+            <div id="quote-out">
+              <!-- Injected by planner.js -->
+            </div>
+          </div>
+
+          <p style="font-size: 0.8rem; color: var(--text-muted); text-align: center; margin-top: 14px;">
+            By submitting, you acknowledge our <a href="terms.html" style="color: var(--gold-deep); text-decoration: underline; font-weight: 600;">Terms & Conditions</a> (50% deposit required, R100 fee for slots before 07:00 / from 17:00).
+          </p>
+
+          <a id="quote-send" href="#" class="btn btn-wa btn-block" style="margin-top: 14px; font-size: 0.96rem;" target="_blank" rel="noopener">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.97.53 1.871.82 2.796.82 3.183 0 5.768-2.587 5.769-5.766.001-3.182-2.585-5.806-5.769-5.806zm0 10.455c-.868 0-1.71-.24-2.433-.695l-.174-.108-1.58.415.422-1.54-.114-.182a4.673 4.673 0 0 1-.72-2.579c.001-2.582 2.102-4.683 4.687-4.683 2.583 0 4.685 2.101 4.686 4.683-.001 2.582-2.103 4.689-4.768 4.689z"/>
+            </svg>
+            Send Booking Request to WhatsApp
+          </a>
+
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 11. 50% DEPOSIT & BANKING DETAILS (POSTER MATCH) -->
+  <section id="deposit" class="section section--blush">
+    <div class="container">
+      
+      <div class="deposit reveal">
+        <div>
+          <span class="tab-label">
+            <span class="tab-label__icon">🛡️</span>
+            Booking Policy
+          </span>
+          <h2>50% Non-Refundable <em>Deposit</em></h2>
+          <p>
+            Required to secure your booking date and time. No appointment is locked into the schedule without proof of deposit.
+          </p>
+
+          <ol class="steps">
+            <li>Choose your service and confirm date availability on WhatsApp.</li>
+            <li>Pay the 50% deposit into the FNB account provided.</li>
+            <li>Send proof of payment on WhatsApp to receive your official confirmation.</li>
+            <li>Settle the remaining balance on the day of the appointment.</li>
+          </ol>
+        </div>
+
+        <div class="bank">
+          <div class="bank__head">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M4 10v7h3v-7H4zm6 0v7h3v-7h-3zm6 0v7h3v-7h-3zM2 22h19v-3H2v3zm9.5-20L2 6v2h19V6l-9.5-4z"/>
+            </svg>
+            <span>First National Bank (FNB)</span>
+          </div>
+
+          <div class="bank__row">
+            <span>Account Holder</span>
+            <strong>PN XABA</strong>
+          </div>
+
+          <div class="bank__row">
+            <span>Account Number</span>
+            <div class="bank__val">
+              <strong>63079093133</strong>
+              <button type="button" class="copy-btn" data-copy="63079093133">Copy</button>
+            </div>
+          </div>
+
+          <div class="bank__row">
+            <span>Branch Code</span>
+            <div class="bank__val">
+              <strong>250655</strong>
+              <button type="button" class="copy-btn" data-copy="250655">Copy</button>
+            </div>
+          </div>
+
+          <div class="bank__row">
+            <span>Account Type</span>
+            <strong>Cheque / Savings</strong>
+          </div>
+
+          <a href="#" class="btn btn-wa btn-sm btn-block" style="margin-top: 18px;" data-wa="Hi Porche! Here is my proof of deposit payment:">
+            Send POP on WhatsApp
+          </a>
+
+          <a href="terms.html" class="btn btn-outline btn-sm btn-block" style="margin-top: 10px; border-color: rgba(231,207,160,0.4); color: var(--gold-light);">
+            Read Full Terms & Conditions →
+          </a>
+        </div>
+      </div>
+
+      <!-- Studio Rules Quick Grid (Poster Highlights) -->
+      <div class="policy-pills-grid reveal" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 24px;">
+        <div style="background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(231, 207, 160, 0.2); border-radius: 16px; padding: 18px; color: #fff;">
+          <div style="display: flex; align-items: center; gap: 10px; color: var(--gold-light); font-weight: 700; font-size: 0.92rem; margin-bottom: 8px;">
+            <span>📅</span>
+            <span>Early & Late Slots</span>
+          </div>
+          <p style="font-size: 0.85rem; color: #CDBFB6; margin: 0; line-height: 1.5;">
+            Slots before 07:00 am & from 17:00 incur a +R100 surcharge. Please confirm availability on WhatsApp before paying deposit.
+          </p>
+        </div>
+
+        <div style="background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(231, 207, 160, 0.2); border-radius: 16px; padding: 18px; color: #fff;">
+          <div style="display: flex; align-items: center; gap: 10px; color: var(--gold-light); font-weight: 700; font-size: 0.92rem; margin-bottom: 8px;">
+            <span>⏱️</span>
+            <span>Fixed Slots & Late Fee</span>
+          </div>
+          <p style="font-size: 0.85rem; color: #CDBFB6; margin: 0; line-height: 1.5;">
+            Late arrival over 20 min incurs R100 / 30 min fee. Arrivals over 30 min late result in automatic cancellation.
+          </p>
+        </div>
+
+        <div style="background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(231, 207, 160, 0.2); border-radius: 16px; padding: 18px; color: #fff;">
+          <div style="display: flex; align-items: center; gap: 10px; color: var(--gold-light); font-weight: 700; font-size: 0.92rem; margin-bottom: 8px;">
+            <span>✨</span>
+            <span>Studio Etiquette</span>
+          </div>
+          <p style="font-size: 0.85rem; color: #CDBFB6; margin: 0; line-height: 1.5;">
+            Rescheduling strictly 48h prior. No outfit changes after sessions. Please avoid extra guests & frequent phone use during application.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 12. FAQ SECTION -->
+  <section class="section">
+    <div class="container">
+      
+      <div class="section-head reveal">
+        <span class="tab-label">
+          <span class="tab-label__icon">❓</span>
+          Information
+        </span>
+        <h2>
+          Frequently Asked
+          <span class="script">Questions</span>
+        </h2>
+      </div>
+
+      <div class="faq reveal">
+        <details open>
+          <summary>How do I secure my booking?</summary>
+          <p>
+            A 50% non-refundable deposit is required to secure your booking. Pay into First National Bank (PN Xaba, Account 63079093133, Branch 250655) and share proof of payment on WhatsApp.
+          </p>
+        </details>
+
+        <details>
+          <summary>What are your house call fees?</summary>
+          <p>
+            House calls are R300 for QwaQwa and Kestell, R350 for Harrismith, and R400 for Bethlehem. For Gauteng, house call fees range according to your exact location.
+          </p>
+        </details>
+
+        <details>
+          <summary>What is your late fee and cancellation policy?</summary>
+          <p>
+            We operate on fixed time slots. If you arrive more than 20 minutes late, a <strong>R100 late charge</strong> (or R100 per 30 minutes) applies. Arrivals over 30 minutes late are <strong>automatically cancelled</strong> and the deposit is forfeited. Rescheduling is strictly permitted at least <strong>48 hours (2 days) prior</strong>.
+          </p>
+        </details>
+
+        <details>
+          <summary>Are there extra charges for early morning or late evening slots?</summary>
+          <p>
+            Yes. Appointments booked <strong>earlier than 07:00 am</strong> and <strong>from 17:00 (5:00 pm)</strong> have an additional fee of <strong>R100</strong>. Please always check slot availability before paying your deposit.
+          </p>
+        </details>
+
+        <details>
+          <summary>Are lashes and eyebrow shaping included?</summary>
+          <p>
+            Strip Lashes are available as an add-on for R50, and Eyebrow Shaping is available for R30.
+          </p>
+        </details>
+
+        <details>
+          <summary>Do you offer male grooming?</summary>
+          <p>
+            Yes! We offer Male Grooming and Male Makeup for R200, creating a clean, even-toned, camera-proof finish for grooms, photoshoots, and graduations.
+          </p>
+        </details>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 13. POSTER CONTACT BAND (BLACK STRIP AT BOTTOM) -->
+  <div class="contact-band">
+    <div class="container contact-band__inner reveal">
+      
+      <div class="contact-band__icon">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+      </div>
+
+      <div>
+        <div class="contact-band__label">Bookings & Enquiries</div>
+        <a href="tel:+27839738295" class="contact-band__phone" data-call>083 973 8295</a>
+        <div class="contact-band__loc">📍 Phuthaditjhaba, QwaQwa</div>
+      </div>
+
+      <div class="contact-band__slogan">
+        Let me
+        <b>BEAT</b>
+        your face! ♡
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 14. FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <img src="./assets/svg/porche-logo.svg" alt="Porche Logo" class="footer__logo" />
+      <div class="footer__name">PORCHE</div>
+      <div class="footer__script">Makeup Artistry</div>
+      <p style="font-size: 0.84rem; margin-top: 6px;">Enhancing your natural beauty • Phuthaditjhaba, QwaQwa & Gauteng</p>
+
+      <div class="footer__social">
+        <a href="#" data-wa="Hi Porche! I would like to book an appointment." aria-label="WhatsApp Porche">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.97.53 1.871.82 2.796.82 3.183 0 5.768-2.587 5.769-5.766.001-3.182-2.585-5.806-5.769-5.806zm0 10.455c-.868 0-1.71-.24-2.433-.695l-.174-.108-1.58.415.422-1.54-.114-.182a4.673 4.673 0 0 1-.72-2.579c.001-2.582 2.102-4.683 4.687-4.683 2.583 0 4.685 2.101 4.686 4.683-.001 2.582-2.103 4.689-4.768 4.689z"/>
+          </svg>
+        </a>
+
+        <a href="#" data-facebook target="_blank" rel="noopener" aria-label="Facebook Porche">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+        </a>
+
+        <a href="tel:+27839738295" data-call aria-label="Call Porche">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+        </a>
+      </div>
+
+      <div style="margin: 14px 0 16px;">
+        <a href="terms.html" style="color: var(--ink); font-weight: 600; font-size: 0.85rem; text-decoration: underline; letter-spacing: 0.04em;">
+          Studio Terms & Conditions
+        </a>
+      </div>
+
+      <p class="footer__small">
+        © <span id="year">2026</span> PORCHE Makeup Artistry. Enhancing your natural beauty. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- 15. MOBILE STICKY ACTION BAR -->
+  <nav class="action-bar" aria-label="Quick Actions">
+    <a href="tel:+27839738295" class="ab-call" aria-label="Call Porche" data-call>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      </svg>
+    </a>
+
+    <a href="#" class="ab-wa" data-wa="Hi Porche! I would like to book a makeup appointment.">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.97.53 1.871.82 2.796.82 3.183 0 5.768-2.587 5.769-5.766.001-3.182-2.585-5.806-5.769-5.806zm0 10.455c-.868 0-1.71-.24-2.433-.695l-.174-.108-1.58.415.422-1.54-.114-.182a4.673 4.673 0 0 1-.72-2.579c.001-2.582 2.102-4.683 4.687-4.683 2.583 0 4.685 2.101 4.686 4.683-.001 2.582-2.103 4.689-4.768 4.689z"/>
+      </svg>
+      <span>WhatsApp</span>
+    </a>
+
+    <a href="#quote-section" class="ab-book">
+      <span>Book Now</span>
+    </a>
+  </nav>
+
+  <!-- 16. FLOATING DESKTOP WHATSAPP BUTTON -->
+  <a href="#" class="wa-float" data-wa="Hi Porche! I'd like to book an appointment." aria-label="Chat with Porche on WhatsApp">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.699c.97.53 1.871.82 2.796.82 3.183 0 5.768-2.587 5.769-5.766.001-3.182-2.585-5.806-5.769-5.806zm0 10.455c-.868 0-1.71-.24-2.433-.695l-.174-.108-1.58.415.422-1.54-.114-.182a4.673 4.673 0 0 1-.72-2.579c.001-2.582 2.102-4.683 4.687-4.683 2.583 0 4.685 2.101 4.686 4.683-.001 2.582-2.103 4.689-4.768 4.689z"/>
+    </svg>
+    <span>Chat on WhatsApp</span>
+  </a>
+
+  <!-- Application Entrypoint -->
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

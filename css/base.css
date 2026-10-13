@@ -1,0 +1,101 @@
+/* Porche: base styles & typography */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  background: var(--bg);
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+  padding-bottom: 84px; /* room for the mobile action bar */
+}
+
+@media (min-width: 900px) { body { padding-bottom: 0; } }
+
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; }
+
+:focus-visible { outline: 2px solid var(--gold-deep); outline-offset: 3px; border-radius: 4px; }
+::selection { background: var(--rose-light); color: var(--ink); }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+}
+
+p { color: var(--text-muted); }
+
+.script {
+  font-family: var(--font-script);
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--gold-deep);
+}
+
+.gold-text {
+  background: var(--grad-gold);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-size: 200% auto;
+  animation: shine 9s linear infinite;
+}
+
+@keyframes shine { to { background-position: 200% center; } }
+
+.container { width: 100%; max-width: 1140px; margin: 0 auto; padding: 0 20px; }
+@media (min-width: 768px) { .container { padding: 0 32px; } }
+
+.section { padding: 64px 0; position: relative; }
+@media (min-width: 768px) { .section { padding: 96px 0; } }
+.section--blush { background: var(--bg-blush); }
+.section--champagne { background: linear-gradient(180deg, var(--bg) 0%, var(--bg-champagne) 100%); }
+
+/* Section heading: black tab label like the poster */
+.section-head { text-align: center; max-width: 620px; margin: 0 auto 36px; }
+.section-head h2 { font-size: clamp(1.9rem, 6vw, 2.8rem); margin: 14px 0 8px; }
+.section-head h2 .script { font-size: 1.25em; display: block; margin-top: 2px; }
+
+.tab-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 18px 7px 8px;
+  background: var(--ink);
+  color: var(--gold-light);
+  border-radius: var(--radius-full);
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.tab-label__icon {
+  width: 26px; height: 26px;
+  border-radius: 50%;
+  border: 1px solid var(--gold);
+  display: grid; place-items: center;
+  font-size: 0.8rem;
+}
+
+/* Scroll reveal */
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.8s var(--ease), transform 0.8s var(--ease); }
+.reveal.in { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+  .reveal { opacity: 1; transform: none; }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "PORCHE Makeup Artistry",
+  "short_name": "PORCHE",
+  "description": "Enhancing your natural beauty. Professional makeup artist in Phuthaditjhaba, QwaQwa & Gauteng. Soft Glam, Full Glam, Bridal & Male Grooming.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FBF7F3",
+  "theme_color": "#FBF7F3",
+  "icons": [
+    {
+      "src": "./assets/svg/porche-logo.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

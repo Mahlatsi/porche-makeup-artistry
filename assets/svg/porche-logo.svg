@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 160" width="100%" height="100%" role="img" aria-label="Porche Makeup Artistry logo">
+  <defs>
+    <linearGradient id="pg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E7CFA0"/>
+      <stop offset="0.45" stop-color="#B8925A"/>
+      <stop offset="0.75" stop-color="#E9D6AE"/>
+      <stop offset="1" stop-color="#8E6A35"/>
+    </linearGradient>
+  </defs>
+  <!-- Teardrop frame -->
+  <path d="M60 6 C60 6 16 62 16 100 a44 44 0 0 0 88 0 C104 62 60 6 60 6 Z" fill="none" stroke="url(#pg)" stroke-width="4"/>
+  <path d="M60 20 C60 20 26 68 26 100 a34 34 0 0 0 68 0 C94 68 60 20 60 20 Z" fill="none" stroke="url(#pg)" stroke-width="1" opacity="0.6"/>
+  <!-- Face profile -->
+  <path d="M66 58 c-10 2 -16 12 -15 22 c0 4 -4 7 -6 10 c2 1 5 1 6 2 c-1 2 0 4 2 4 c-1 2 0 4 2 5 c-1 3 1 6 5 6 c5 0 8 2 9 6 c2 6 0 12 -4 16 c10 -2 17 -12 17 -26 c0 -10 -2 -16 -2 -22 c0 -10 -6 -20 -14 -23 Z" fill="url(#pg)"/>
+  <!-- Leaves -->
+  <path d="M40 120 c-8 -4 -12 -12 -11 -20 c8 3 13 10 11 20 Z" fill="url(#pg)"/>
+  <path d="M38 104 c-7 -5 -9 -13 -6 -20 c7 4 10 12 6 20 Z" fill="url(#pg)" opacity="0.85"/>
+  <path d="M42 132 c-9 -1 -15 -7 -16 -15 c8 1 14 7 16 15 Z" fill="url(#pg)" opacity="0.9"/>
+</svg>
